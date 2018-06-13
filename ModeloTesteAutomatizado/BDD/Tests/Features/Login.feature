@@ -5,12 +5,13 @@ Funcionalidade: Login
 	Como usuário do site
 	Desejo realizar login
 
-
+@login @producao
 Cenário: Acessar tela de login
 	Dado que acessei o site
 	Quando cliquei o link Login
 	Então devo visualizar a tela de login
 
+@login @homologacao
 Cenário: Realizar login
 	Dado que acessei o site
 	E cliquei o link Login
